@@ -16,7 +16,7 @@ float[] size, speedX, speedY, direction;
 void setup(){
     // Background and drawing setup
     size(800,800);
-    cp5 = new ControlP5(this);
+    cp5 = new ControlP5(this); cc
 
     sizeSlider = cp5.addSlider("fishSize")
             .setPosition(30,40)
